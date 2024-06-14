@@ -1,4 +1,4 @@
-import NepaliDate from 'nepali-date/cjs/NepaliDate';
+import NepaliDate from '../nepali-date/cjs/NepaliDate';
 
 const YEAR_DATES = [{
   year: 2000,

@@ -1,4 +1,4 @@
-'use strict';Object.defineProperty(exports,'__esModule',{value:true});var NepaliDate=require('nepali-date/cjs/NepaliDate');function _interopDefaultLegacy(e){return e&&typeof e==='object'&&'default'in e?e:{'default':e}}var NepaliDate__default=/*#__PURE__*/_interopDefaultLegacy(NepaliDate);var YEAR_DATES = [{
+'use strict';Object.defineProperty(exports,'__esModule',{value:true});var NepaliDate=require('../nepali-date/cjs/NepaliDate');function _interopDefaultLegacy(e){return e&&typeof e==='object'&&'default'in e?e:{'default':e}}var NepaliDate__default=/*#__PURE__*/_interopDefaultLegacy(NepaliDate);var YEAR_DATES = [{
   year: 2000,
   value: [30, 32, 31, 32, 31, 30, 30, 30, 29, 30, 29, 31]
 }, {
