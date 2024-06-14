@@ -1,0 +1,97 @@
+{
+  "_args": [
+    [
+      "v-nepalidatepicker@1.2.4",
+      "/home/mavorion/Documents/mis_reports"
+    ]
+  ],
+  "_from": "v-nepalidatepicker@1.2.4",
+  "_id": "v-nepalidatepicker@1.2.4",
+  "_inBundle": false,
+  "_integrity": "sha512-oacslBo4fWkSqlmwX6aM4rPks9qlcMkFSLFAH8PaZ4/RoPf6PEGX/V1fQpU6AjmEXahqNdM21LmbcQubudna4A==",
+  "_location": "/v-nepalidatepicker",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "version",
+    "registry": true,
+    "raw": "v-nepalidatepicker@1.2.4",
+    "name": "v-nepalidatepicker",
+    "escapedName": "v-nepalidatepicker",
+    "rawSpec": "1.2.4",
+    "saveSpec": null,
+    "fetchSpec": "1.2.4"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/v-nepalidatepicker/-/v-nepalidatepicker-1.2.4.tgz",
+  "_spec": "1.2.4",
+  "_where": "/home/mavorion/Documents/mis_reports",
+  "author": {
+    "name": "Krijan Niroula"
+  },
+  "browser": "dist/v-nepalidatepicker.esm.js",
+  "bugs": {
+    "url": "https://github.com/krijanniroula/v-nepalidatepicker/issues"
+  },
+  "dependencies": {
+  },
+  "description": "Nepali Date Picker component for Vue js",
+  "devDependencies": {
+    "@babel/core": "^7.9.0",
+    "@babel/preset-env": "^7.9.5",
+    "@rollup/plugin-alias": "^2.2.0",
+    "@rollup/plugin-commonjs": "^11.1.0",
+    "@rollup/plugin-replace": "^2.3.2",
+    "@vue/cli-plugin-babel": "^4.3.1",
+    "@vue/cli-service": "^4.3.1",
+    "cross-env": "^7.0.2",
+    "minimist": "^1.2.5",
+    "rollup": "^2.7.3",
+    "rollup-plugin-babel": "^4.4.0",
+    "rollup-plugin-terser": "^5.3.0",
+    "rollup-plugin-vue": "^5.1.6",
+    "vue": "^2.6.11",
+    "vue-template-compiler": "^2.6.11"
+  },
+  "engines": {
+    "node": ">=10"
+  },
+  "files": [
+    "dist/*",
+    "src/**/*.vue"
+  ],
+  "homepage": "https://github.com/krijanniroula/v-nepalidatepicker#readme",
+  "keywords": [
+    "nepalidatepicker",
+    "v-nepalidatepicker",
+    "vue-datepicker",
+    "datepicker",
+    "nepali",
+    "nepalidate",
+    "vuenepali",
+    "vue nepali datepicker",
+    "datepicker nepali",
+    "vue nepali"
+  ],
+  "license": "MIT",
+  "main": "dist/v-nepalidatepicker.ssr.js",
+  "module": "dist/v-nepalidatepicker.esm.js",
+  "name": "v-nepalidatepicker",
+  "peerDependencies": {
+    "vue": "^2.6.11"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/krijanniroula/v-nepalidatepicker.git"
+  },
+  "scripts": {
+    "build": "cross-env NODE_ENV=production rollup --config build/rollup.config.js",
+    "build:es": "cross-env NODE_ENV=production rollup --config build/rollup.config.js --format es",
+    "build:ssr": "cross-env NODE_ENV=production rollup --config build/rollup.config.js --format cjs",
+    "build:unpkg": "cross-env NODE_ENV=production rollup --config build/rollup.config.js --format iife",
+    "serve": "vue-cli-service serve dev/serve.js"
+  },
+  "unpkg": "dist/v-nepalidatepicker.min.js",
+  "version": "1.2.4"
+}
